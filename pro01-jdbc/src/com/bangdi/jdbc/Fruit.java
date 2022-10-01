@@ -8,8 +8,11 @@ public class Fruit {
     private Integer fcount;
     private String remark;
 
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> origin/main
     public Fruit() {
     }
 
