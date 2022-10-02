@@ -1,4 +1,4 @@
-package com.bangdi.jdbc;
+package com.atguigu.jdbc.pojo;
 
 public class Fruit {
 
@@ -8,8 +8,14 @@ public class Fruit {
     private Integer fcount;
     private String remark;
 
-
     public Fruit() {
+    }
+
+    public Fruit(String fname, Integer price, Integer fcount, String remark) {
+        this.fname = fname;
+        this.price = price;
+        this.fcount = fcount;
+        this.remark = remark;
     }
 
     public Fruit(Integer fid, String fname, Integer price, Integer fcount, String remark) {

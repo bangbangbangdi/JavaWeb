@@ -1,10 +1,9 @@
-package com.atguigu.fruit.controller;
+package com.atguigu.jdbc.controller;
 
-import com.atguigu.fruit.dao.FruitDAO;
-import com.atguigu.fruit.dao.impl.FruitDAOImpl;
-import com.atguigu.fruit.pojo.Fruit;
+import com.atguigu.jdbc.dao.FruitDAO;
+import com.atguigu.jdbc.dao.impl.FruitDAOImpl;
+import com.atguigu.jdbc.pojo.Fruit;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -100,7 +99,7 @@ public class Menu {
 
     // 退出
     public boolean exit() {
-        System.out.println("是否确认退出?");
+        System.out.println("是否确认退出? (Y/N)");
         String slt = input.next();
         return "y".equalsIgnoreCase(slt.trim());
     }

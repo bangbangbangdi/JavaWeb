@@ -11,11 +11,22 @@
     <modules>
         <module>pro01-jdbc</module>
     </modules>
+    <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
 
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.29</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

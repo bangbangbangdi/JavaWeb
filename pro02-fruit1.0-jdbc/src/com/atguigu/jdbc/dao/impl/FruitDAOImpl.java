@@ -1,7 +1,7 @@
-package com.atguigu.fruit.dao.impl;
+package com.atguigu.jdbc.dao.impl;
 
-import com.atguigu.fruit.dao.FruitDAO;
-import com.atguigu.fruit.pojo.Fruit;
+import com.atguigu.jdbc.dao.FruitDAO;
+import com.atguigu.jdbc.pojo.Fruit;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -14,7 +14,8 @@ public class FruitDAOImpl implements FruitDAO {
     ResultSet rs;
 
     final String DRIVER = "com.mysql.jdbc.Driver";
-    final String URL = "dbc:mysql://localhost:3306/atguigudb";
+    final String URL = "jdbc:mysql://localhost:3306/atguigudb";
+//    final String URL = "jdbc:mysql://localhost:3306/atguigudb?useUnicode=true&characterEncoding=utf-8&useSSL=false";
     final String USER = "root";
     final String PWD = "abc123";
 
@@ -95,7 +96,7 @@ public class FruitDAOImpl implements FruitDAO {
             Connection conn = DriverManager.getConnection(URL, USER, PWD);
             String sql = "update t_fruit set fcount = ? where fid = ?";
             psmt = conn.prepareStatement(sql);
-            psmt.setString(1, fruit.getFname());
+            psmt.setInt(1, fruit.getFcount());
             psmt.setInt(2, fruit.getFid());
             return psmt.executeUpdate() > 0;
         } catch (ClassNotFoundException | SQLException e) {
@@ -122,12 +123,13 @@ public class FruitDAOImpl implements FruitDAO {
             conn = DriverManager.getConnection(URL, USER, PWD);
             String sql = "select * from t_fruit where fname like ?";
             psmt = conn.prepareStatement(sql);
+            psmt.setString(1,fname);
             rs = psmt.executeQuery();
             if (rs.next()) {
                 int fid = rs.getInt(1);
-                int price = rs.getInt(2);
-                int fcount = rs.getInt(3);
-                String remark = rs.getString(4);
+                int price = rs.getInt(3);
+                int fcount = rs.getInt(4);
+                String remark = rs.getString(5);
                 return new Fruit(fid, fname, price, fcount, remark);
             }
         } catch (ClassNotFoundException | SQLException e) {

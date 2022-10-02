@@ -1,6 +1,6 @@
-package com.atguigu.fruit.view;
+package com.atguigu.jdbc.view;
 
-import com.atguigu.fruit.controller.Menu;
+import com.atguigu.jdbc.controller.Menu;
 
 public class Client {
 

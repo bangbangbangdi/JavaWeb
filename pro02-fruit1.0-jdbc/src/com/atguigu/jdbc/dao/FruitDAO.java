@@ -1,6 +1,6 @@
-package com.atguigu.fruit.dao;
+package com.atguigu.jdbc.dao;
 
-import com.atguigu.fruit.pojo.Fruit;
+import com.atguigu.jdbc.pojo.Fruit;
 
 import java.util.List;
 

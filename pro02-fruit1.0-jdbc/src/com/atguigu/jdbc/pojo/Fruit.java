@@ -1,4 +1,4 @@
-package com.atguigu.fruit.pojo;
+package com.atguigu.jdbc.pojo;
 
 public class Fruit {
 
