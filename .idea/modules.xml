@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/pro03-fruit1.1-jdbc/pro03-fruit1.1-jdbc.iml" filepath="$PROJECT_DIR$/pro03-fruit1.1-jdbc/pro03-fruit1.1-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro04-fruit1.2-jdbc/pro04-fruit1.2-jdbc.iml" filepath="$PROJECT_DIR$/pro04-fruit1.2-jdbc/pro04-fruit1.2-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro05-jdbc-batch-datasource/pro05-jdbc-batch-datasource.iml" filepath="$PROJECT_DIR$/pro05-jdbc-batch-datasource/pro05-jdbc-batch-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro07-javaweb-begin/pro07-javaweb-begin.iml" filepath="$PROJECT_DIR$/pro07-javaweb-begin/pro07-javaweb-begin.iml" />
     </modules>
   </component>
 </project>

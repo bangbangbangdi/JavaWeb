@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pro07-javaweb-begin:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pro07_javaweb_begin_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pro07-javaweb-begin" />
+          <element id="module-output" name="JavaWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.29" />
+          <element id="library" level="module" name="Maven: com.alibaba:jconsole:1.8.0" module-name="JavaWeb" />
+          <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="JavaWeb" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="pro07-javaweb-begin/web/Web" />
+    </root>
+  </artifact>
+</component>

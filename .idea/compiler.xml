@@ -9,5 +9,8 @@
         <module name="pro01-jdbc" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pro07-javaweb-begin" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
