@@ -1,4 +1,4 @@
-package com.atguigu.jdbc.dao.base;
+package com.atguigu.fruit.dao.base;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
@@ -16,7 +16,7 @@ public abstract class BaseDAO<T> {
 
     final String DRIVER = "com.mysql.cj.jdbc.Driver";
     final String URL = "jdbc:mysql://localhost:3306/atguigudb";
-    //    final String URL = "jdbc:mysql://localhost:3306/atguigudb?useUnicode=true&characterEncoding=utf-8&useSSL=false";
+//    final String URL = "jdbc:mysql://localhost:3306/atguigudb?useUnicode=true&characterEncoding=utf-8&useSSL=false";
     final String USER = "root";
     final String PWD = "abc123";
 
@@ -70,17 +70,11 @@ public abstract class BaseDAO<T> {
             setParams(psmt, params);
             int count = psmt.executeUpdate();
 
-//            rs = psmt.getGeneratedKeys();
-//            if (rs.next()) {
-//                return rs.getInt(1);
-//            }
-//            return insertFlg ? psmt.getGeneratedKeys().getInt(1) : count;
             rs = psmt.getGeneratedKeys();
-            if(rs.next()){
+            if (rs.next()) {
                 return rs.getInt(1);
-//                return ((Long)rs.getLong(1)).intValue();
             }
-            return count ;
+            return count;
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
