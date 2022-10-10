@@ -16,7 +16,7 @@ public class AddServlet extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         String fname = req.getParameter("fname");
 
-        String priceStr = req.getParameter("price");
+        String priceStr = req.getParameter("price"); 
         Integer price = Integer.valueOf(priceStr);
         String fcountStr = req.getParameter("fcount");
         Integer fcount = Integer.valueOf(fcountStr);
