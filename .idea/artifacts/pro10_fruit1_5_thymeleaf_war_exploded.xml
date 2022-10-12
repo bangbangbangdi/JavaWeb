@@ -1,14 +1,13 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="pro09-fruit1.3-thymeleaf:war exploded2">
-    <output-path>$PROJECT_DIR$/out/artifacts/pro09_fruit1_3_thymeleaf_war_exploded2</output-path>
+  <artifact type="exploded-war" name="pro10-fruit1.5-thymeleaf:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pro10_fruit1_5_thymeleaf_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="pro09-fruit1.3-thymeleaf/web/Web" />
+      <element id="javaee-facet-resources" facet="pro10-fruit1.5-thymeleaf/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="pro09-fruit1.3-thymeleaf" />
+          <element id="module-output" name="pro10-fruit1.5-thymeleaf" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" />
           <element id="library" level="project" name="lib" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.29" />
           <element id="library" level="project" name="Maven: ognl:ognl:3.1.26" />
@@ -27,6 +26,7 @@
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:3.0.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" />
         </element>
       </element>
     </root>
