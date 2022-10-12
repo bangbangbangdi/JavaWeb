@@ -18,7 +18,7 @@ public abstract class BaseDAO<T> {
     final String URL = "jdbc:mysql://localhost:3306/atguigudb";
     //    final String URL = "jdbc:mysql://localhost:3306/atguigudb?useUnicode=true&characterEncoding=utf-8&useSSL=false";
     final String USER = "root";
-    final String PWD = "abc123";
+    final String PWD = "jiangui.1";
 
     public BaseDAO() {
         Type genericType = getClass().getGenericSuperclass();

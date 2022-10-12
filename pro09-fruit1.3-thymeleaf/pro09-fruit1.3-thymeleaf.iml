@@ -19,5 +19,24 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:druid:1.0.29" level="project" />
+    <orderEntry type="library" name="Maven: ognl:ognl:3.1.26" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-annotations-api:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-api:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-catalina:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-coyote:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-el-api:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jni:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jsp-api:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-servlet-api:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util-scan:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util:8.0.42" level="project" />
+    <orderEntry type="library" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf:3.0.12.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
   </component>
 </module>

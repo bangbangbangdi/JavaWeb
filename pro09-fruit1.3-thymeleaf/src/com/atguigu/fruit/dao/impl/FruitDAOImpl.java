@@ -1,8 +1,8 @@
 package com.atguigu.fruit.dao.impl;
 
 import com.atguigu.fruit.dao.FruitDAO;
-import com.atguigu.fruit.dao.base.BaseDAO;
 import com.atguigu.fruit.pojo.Fruit;
+import com.atguigu.myssm.basedao.BaseDAO;
 
 import java.util.List;
 
