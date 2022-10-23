@@ -69,3 +69,15 @@ div{
 .f30{
 	font-size: 30px;
 }
+.page{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.add{
+	width: 60%;
+	position: absolute;
+	margin-top: 8%;
+	margin-left: 20%;
+}

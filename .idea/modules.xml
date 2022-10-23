@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro02-fruit1.0-jdbc/pro02-fruit1.0-jdbc.iml" filepath="$PROJECT_DIR$/pro02-fruit1.0-jdbc/pro02-fruit1.0-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro03-fruit1.1-jdbc/pro03-fruit1.1-jdbc.iml" filepath="$PROJECT_DIR$/pro03-fruit1.1-jdbc/pro03-fruit1.1-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro04-fruit1.2-jdbc/pro04-fruit1.2-jdbc.iml" filepath="$PROJECT_DIR$/pro04-fruit1.2-jdbc/pro04-fruit1.2-jdbc.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" filepath="$PROJECT_DIR$/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro09-fruit1.3-thymeleaf/pro09-fruit1.3-thymeleaf.iml" filepath="$PROJECT_DIR$/pro09-fruit1.3-thymeleaf/pro09-fruit1.3-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro10-fruit1.5-thymeleaf/pro10-fruit1.5-thymeleaf.iml" filepath="$PROJECT_DIR$/pro10-fruit1.5-thymeleaf/pro10-fruit1.5-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro11-fruit1.6-thymeleaf/pro11-fruit1.6-thymeleaf.iml" filepath="$PROJECT_DIR$/pro11-fruit1.6-thymeleaf/pro11-fruit1.6-thymeleaf.iml" />
     </modules>
   </component>
 </project>
