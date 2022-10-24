@@ -1,6 +1,6 @@
 function delFruit(fid) {
     if (confirm('是否确认')) {
-        window.location.href = 'del.do?fid=' + fid;
+        window.location.href = 'fruit.do?fid=' + fid + '&operate=del';
     }
 }
 

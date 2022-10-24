@@ -1,11 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="pro10-fruit1.5-thymeleaf:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/pro10_fruit1_5_thymeleaf_war_exploded</output-path>
+  <artifact type="exploded-war" name="pro11-fruit1.6-thymeleaf:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pro11_fruit1_6_thymeleaf_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="pro10-fruit1.5-thymeleaf/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="pro10-fruit1.5-thymeleaf" />
+          <element id="module-output" name="pro11-fruit1.6-thymeleaf" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="lib" />
@@ -17,9 +16,7 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-coyote:8.0.42" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-el-api:8.0.42" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jni:8.0.42" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:8.0.42" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.0.42" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:8.0.42" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util-scan:8.0.42" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util:8.0.42" />
           <element id="library" level="project" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" />
@@ -29,6 +26,7 @@
           <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="pro11-fruit1.6-thymeleaf/web/Web" />
     </root>
   </artifact>
 </component>
