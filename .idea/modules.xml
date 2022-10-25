@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/pro09-fruit1.3-thymeleaf/pro09-fruit1.3-thymeleaf.iml" filepath="$PROJECT_DIR$/pro09-fruit1.3-thymeleaf/pro09-fruit1.3-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro10-fruit1.5-thymeleaf/pro10-fruit1.5-thymeleaf.iml" filepath="$PROJECT_DIR$/pro10-fruit1.5-thymeleaf/pro10-fruit1.5-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro11-fruit1.6-thymeleaf/pro11-fruit1.6-thymeleaf.iml" filepath="$PROJECT_DIR$/pro11-fruit1.6-thymeleaf/pro11-fruit1.6-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro12-fruit1.7-thymeleaf/pro12-fruit1.7-thymeleaf.iml" filepath="$PROJECT_DIR$/pro12-fruit1.7-thymeleaf/pro12-fruit1.7-thymeleaf.iml" />
     </modules>
   </component>
 </project>
