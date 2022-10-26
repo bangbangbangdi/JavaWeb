@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
-public class FruitController extends ViewBaseServlet {
+public class FruitController {
 
     private FruitDAO fruitDAO = new FruitDAOImpl();
 

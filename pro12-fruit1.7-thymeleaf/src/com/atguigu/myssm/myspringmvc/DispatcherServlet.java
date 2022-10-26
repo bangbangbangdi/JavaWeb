@@ -33,7 +33,8 @@ public class DispatcherServlet extends ViewBaseServlet {
     }
 
     @Override
-    public void init() {
+    public void init() throws ServletException {
+        super.init();
         try {
             InputStream inputStream = getClass().getClassLoader().getResourceAsStream("applicationContext.xml");
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
@@ -48,14 +49,11 @@ public class DispatcherServlet extends ViewBaseServlet {
                     String className = beanElement.getAttribute("class");
                     Class controllerBeanClass = Class.forName(className);
                     Object beanObj = controllerBeanClass.newInstance();
-                    Method setServletContext = controllerBeanClass.getDeclaredMethod("setServletContext", ServletContext.class);
-                    setServletContext.invoke(beanObj, this.getServletContext());
                     beanMap.put(beanId, beanObj);
                 }
             }
         } catch (ParserConfigurationException | IOException | SAXException | ClassNotFoundException |
-                 InstantiationException | IllegalAccessException | NoSuchMethodException |
-                 InvocationTargetException e) {
+                 InstantiationException | IllegalAccessException e) {
             e.printStackTrace();
         }
     }
