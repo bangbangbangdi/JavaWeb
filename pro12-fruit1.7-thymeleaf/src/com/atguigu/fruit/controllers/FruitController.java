@@ -3,6 +3,8 @@ package com.atguigu.fruit.controllers;
 import com.atguigu.fruit.dao.FruitDAO;
 import com.atguigu.fruit.dao.impl.FruitDAOImpl;
 import com.atguigu.fruit.pojo.Fruit;
+import com.atguigu.fruit.service.FruitService;
+import com.atguigu.fruit.service.impl.FruitServiceImpl;
 import com.atguigu.myssm.myspringmvc.ViewBaseServlet;
 import com.atguigu.myssm.util.StringUtil;
 
@@ -16,17 +18,17 @@ import java.util.List;
 
 public class FruitController {
 
-    private FruitDAO fruitDAO = new FruitDAOImpl();
+    private FruitService fruitService = new FruitServiceImpl();
 
 
     private String update(Integer fid, String fname, Integer price, Integer fcount, String remark) {
-        fruitDAO.updateFruit(new Fruit(fid, fname, price, fcount, remark));
+        fruitService.updateFruit(new Fruit(fid, fname, price, fcount, remark));
         return "redirect:fruit.do";
     }
 
     private String edit(Integer fid, HttpServletRequest req) {
         if (fid != null) {
-            Fruit fruit = fruitDAO.getFruitByFid(fid);
+            Fruit fruit = fruitService.getFruitByFid(fid);
             req.setAttribute("fruit", fruit);
             return "edit";
         }
@@ -35,7 +37,7 @@ public class FruitController {
 
     private String del(Integer fid) {
         if (fid != null) {
-            fruitDAO.delFruit(fid);
+            fruitService.delFruit(fid);
             return "redirect:fruit.do";
         }
         return "error";
@@ -43,7 +45,7 @@ public class FruitController {
 
     private String add(String fname, Integer price, Integer fcount, String remark) {
         Fruit fruit = new Fruit(0, fname, price, fcount, remark);
-        fruitDAO.addFruit(fruit);
+        fruitService.addFruit(fruit);
         return "redirect:fruit.do";
     }
 
@@ -66,17 +68,12 @@ public class FruitController {
                 keyword = "";
             }
         }
-
-
         session.setAttribute("pageNo", pageNo);
-
-        FruitDAO fruitDAO = new FruitDAOImpl();
-        List<Fruit> fruitList = fruitDAO.getFruitList(keyword, pageNo);
+        List<Fruit> fruitList = fruitService.getFruitList(keyword, pageNo);
         session.setAttribute("fruitList", fruitList);
 
-        int pageCount = (fruitDAO.getFruitCount() + 5 - 1) / 5;
+        int pageCount = fruitService.getPageCount(keyword);
         session.setAttribute("pageCount", pageCount);
-
         return "index";
     }
 

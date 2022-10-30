@@ -36,8 +36,8 @@ public class FruitDAOImpl extends BaseDAO<Fruit> implements FruitDAO {
     }
 
     @Override
-    public int getFruitCount() {
-        String sql = "select count(*) from t_fruit";
-        return ((Long) super.executeComplexQuery(sql)[0]).intValue();
+    public int getFruitCount(String keyword) {
+        String sql = "select count(*) from t_fruit where fname like ? ";
+        return ((Long) super.executeComplexQuery(sql, "%" + keyword + "%")[0]).intValue();
     }
 }

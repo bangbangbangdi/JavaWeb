@@ -16,6 +16,6 @@ public interface FruitDAO {
 
     void addFruit(Fruit fruit);
 
-    int getFruitCount();
+    int getFruitCount(String keyword);
 
 }
