@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="pro12-fruit1.7-thymeleaf:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/pro12_fruit1_7_thymeleaf_war_exploded</output-path>
+  <artifact type="exploded-war" name="pro13-servlet-api:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pro13_servlet_api_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="pro12-fruit1.7-thymeleaf" />
+          <element id="module-output" name="pro13-servlet-api" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="lib" />
@@ -26,7 +26,7 @@
           <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="pro12-fruit1.7-thymeleaf/web/Web" />
+      <element id="javaee-facet-resources" facet="pro13-servlet-api/web/Web" />
     </root>
   </artifact>
 </component>
