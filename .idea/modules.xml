@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/pro12-fruit1.7-thymeleaf/pro12-fruit1.7-thymeleaf.iml" filepath="$PROJECT_DIR$/pro12-fruit1.7-thymeleaf/pro12-fruit1.7-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro13-servlet-api/pro13-servlet-api.iml" filepath="$PROJECT_DIR$/pro13-servlet-api/pro13-servlet-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro14-filter-listener/pro14-filter-listener.iml" filepath="$PROJECT_DIR$/pro14-filter-listener/pro14-filter-listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro15-fruit1.8-mvc-transaction/pro15-fruit1.8-mvc-transaction.iml" filepath="$PROJECT_DIR$/pro15-fruit1.8-mvc-transaction/pro15-fruit1.8-mvc-transaction.iml" />
     </modules>
   </component>
 </project>
