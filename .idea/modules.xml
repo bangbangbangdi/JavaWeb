@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro00-reference/pro00-reference.iml" filepath="$PROJECT_DIR$/pro00-reference/pro00-reference.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro02-fruit1.0-jdbc/pro02-fruit1.0-jdbc.iml" filepath="$PROJECT_DIR$/pro02-fruit1.0-jdbc/pro02-fruit1.0-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro03-fruit1.1-jdbc/pro03-fruit1.1-jdbc.iml" filepath="$PROJECT_DIR$/pro03-fruit1.1-jdbc/pro03-fruit1.1-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro04-fruit1.2-jdbc/pro04-fruit1.2-jdbc.iml" filepath="$PROJECT_DIR$/pro04-fruit1.2-jdbc/pro04-fruit1.2-jdbc.iml" />
