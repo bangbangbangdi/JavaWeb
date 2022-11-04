@@ -43,6 +43,10 @@ public class FruitController {
         return "error";
     }
 
+    private String toAdd(){
+        return "add";
+    }
+
     private String add(String fname, Integer price, Integer fcount, String remark) {
         Fruit fruit = new Fruit(0, fname, price, fcount, remark);
         fruitService.addFruit(fruit);
@@ -68,11 +72,14 @@ public class FruitController {
                 keyword = "";
             }
         }
+
         session.setAttribute("pageNo", pageNo);
         List<Fruit> fruitList = fruitService.getFruitList(keyword, pageNo);
         session.setAttribute("fruitList", fruitList);
 
         int pageCount = fruitService.getPageCount(keyword);
+//        System.out.println("pageNo = " + pageNo);
+//        System.out.println("pageCount = " + pageCount);
         session.setAttribute("pageCount", pageCount);
         return "index";
     }

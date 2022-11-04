@@ -16,7 +16,7 @@
                 <input type="text" name="keyword" th:value="${session.keyword}" placeholder="请输入咩咩">
                 <input type="submit" value="查询" class="btn">
             </form>
-            <a th:href="@{/add.html}" style="float: right">添加新库存记录</a>
+            <a th:href="@{/fruit.do(operate='toAdd')}" style="float: right">添加新库存记录</a>
         </div>
         <table id="tbl_fruit">
             <tr>
