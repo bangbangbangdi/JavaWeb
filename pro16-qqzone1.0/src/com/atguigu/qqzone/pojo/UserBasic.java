@@ -1,5 +1,7 @@
 package com.atguigu.qqzone.pojo;
 
+import java.util.List;
+
 public class UserBasic {
 
     private Integer id;
@@ -7,6 +9,10 @@ public class UserBasic {
     private String nickName;
     private String pwd;
     private String headImg;
+
+    private UserDetail userDetail;
+    private List<Topic> topicList;
+    private List<UserBasic> friendList;
 
     public UserBasic() {
     }

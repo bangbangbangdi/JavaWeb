@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface TopicDAO {
 
-    List<TopicDAO> getTopicList(UserBasic userBasic);
+    List<Topic> getTopicList(UserBasic userBasic);
     void addTopic(Topic topic);
     void delTopic(Topic topic);
     Topic getTopic(Integer id);
