@@ -60,4 +60,28 @@ public class UserBasic {
     public void setHeadImg(String headImg) {
         this.headImg = headImg;
     }
+
+    public UserDetail getUserDetail() {
+        return userDetail;
+    }
+
+    public void setUserDetail(UserDetail userDetail) {
+        this.userDetail = userDetail;
+    }
+
+    public List<Topic> getTopicList() {
+        return topicList;
+    }
+
+    public void setTopicList(List<Topic> topicList) {
+        this.topicList = topicList;
+    }
+
+    public List<UserBasic> getFriendList() {
+        return friendList;
+    }
+
+    public void setFriendList(List<UserBasic> friendList) {
+        this.friendList = friendList;
+    }
 }

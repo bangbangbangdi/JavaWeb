@@ -17,7 +17,7 @@ public class TopicServiceImpl implements TopicService {
     private UserBasicService userBasicService;
 
     @Override
-    public List<Topic> getTopicService(UserBasic userBasic) {
+    public List<Topic> getTopicList(UserBasic userBasic) {
         return topicDAO.getTopicList(userBasic);
     }
 
@@ -32,12 +32,17 @@ public class TopicServiceImpl implements TopicService {
         return topic;
     }
 
-    // 该方法与getTopicById区别在于一个是关联Reply
+    // 该方法与getTopicById区别在于一个是关联Reply一个是关联UserBasic
+    // 不过相同的都是,两个方法都是对引用类型进行赋值
+    // 换言之,任何引用类型都无法直接通过反射完成赋值
+    // 不过可以像以下这样,在表结构上存储引用对象的主键
+    // 后续通过get方法获取到对象后,通过set方法完成赋值
     @Override
     public Topic getTopic(Integer id) {
         Topic topic = topicDAO.getTopic(id);
-
-
+        UserBasic author = topic.getAuthor();
+        author = userBasicService.getUserBasicById(author.getId());
+        topic.setAuthor(author);
         return null;
     }
 

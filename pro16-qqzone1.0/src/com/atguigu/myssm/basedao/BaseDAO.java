@@ -158,8 +158,11 @@ public class BaseDAO <T>{
                 T entity = (T) entityClass.newInstance();
 
                 for (int i = 0; i < columnCount; i++) {
+                    // 在这里规定获取到的columnName 一定有对应的entity属性
                     String columnName = rsmd.getColumnLabel(i + 1);
                     Object columnValue = rs.getObject(i + 1);
+                    // 这里调用的不是entity对象的set方法,而是先获取到这个类中对应属性的Field对象
+                    // 然后再调用Field对象的set方法
                     setValue(entity,columnName,columnValue);
                 }
                 list.add(entity);

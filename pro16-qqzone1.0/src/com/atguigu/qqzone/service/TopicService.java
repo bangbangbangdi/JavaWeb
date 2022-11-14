@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface TopicService {
 
-    List<Topic> getTopicService(UserBasic userBasic);
+    List<Topic> getTopicList(UserBasic userBasic);
     Topic getTopicById(Integer id);
 
     // 根据id获取指定的topic信息,包含topic关联作者信息
