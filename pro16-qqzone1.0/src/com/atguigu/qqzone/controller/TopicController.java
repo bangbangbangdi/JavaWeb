@@ -28,6 +28,8 @@ public class TopicController {
         List<Topic> topicList = topicService.getTopicList(userBasic);
         // 设置关联日志列表，因为数据库中的列表没有办法实时的反应到用户的topList属性中
         userBasic.setTopicList(topicList);
+        // 重新覆盖一下friend中的信息,(为什么不覆盖userBasic中的数据?因为main.html页面中迭代的是friend这个key中的数据)
+        // 并且userBasic这个key已经被使用了,用于区别当前的日志列表是否是我的日志(会影响权限)
         session.setAttribute("friend",userBasic);
         return "frames/main";
     }
