@@ -53,7 +53,7 @@ public class ClassPathXmlApplicationContext implements BeanFactory{
                     String beanId = beanElement.getAttribute("id");
                     NodeList beanChildNodeList = beanElement.getChildNodes();
                     for (int j = 0; j < beanChildNodeList.getLength(); j++) {
-                        Node beanChildNode = beanChildNodeList.item(i);
+                        Node beanChildNode = beanChildNodeList.item(j);
                         if (beanChildNode.getNodeType() == Node.ELEMENT_NODE && "property".equals(beanChildNode.getNodeName())){
                             Element propertyElement = (Element) beanChildNode;
                             String propertyName = propertyElement.getAttribute("name");
@@ -63,6 +63,7 @@ public class ClassPathXmlApplicationContext implements BeanFactory{
                             Class beanClazz = beanObj.getClass();
                             Field propertyField = beanClazz.getDeclaredField(propertyName);
                             propertyField.setAccessible(true);
+//                            System.out.println("beanId = " + beanId +"--propertyRef = " + propertyRef);
                             propertyField.set(beanObj,refObj);
                         }
                     }
@@ -77,6 +78,6 @@ public class ClassPathXmlApplicationContext implements BeanFactory{
 
     @Override
     public Object getBean(String id) {
-        return null;
+        return beanMap.get(id);
     }
 }

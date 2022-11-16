@@ -37,6 +37,7 @@ public class DispatcherServlet extends ViewBaseServlet {
         servletPath = servletPath.substring(1);
         int lastIndex = servletPath.lastIndexOf(".do");
         servletPath = servletPath.substring(0,lastIndex);
+//        System.out.println(servletPath);
         Object controllerBeanObj = beanFactory.getBean(servletPath);
         String operate = req.getParameter("operate");
         if (StringUtil.isEmpty(operate)){
