@@ -66,7 +66,8 @@ public class BaseDAO <T>{
 
     private void setValue(Object obj,String property,Object propertyValue) throws NoSuchFieldException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         Class clazz = obj.getClass();
-
+//        System.out.println("clazz = " + clazz);
+//        System.out.println("property = " + property);
         Field field = clazz.getDeclaredField(property);
         if (field != null){
             String typeName = field.getType().getName();
@@ -171,7 +172,7 @@ public class BaseDAO <T>{
             e.printStackTrace();
             throw new DAOException("BaseDAO executeQuery Error");
         }
-        return null;
+        return list;
     }
 
 }

@@ -25,6 +25,7 @@ public class UserController {
             // friendList的存储的是当前进入的是谁的空间(对应日志,以及一些好友权限之类的)
             session.setAttribute("userBasic", userBasic);
             session.setAttribute("friendList", friendList);
+            session.setAttribute("friend",userBasic);
             return "index";
         } else {
             return "login";

@@ -3,6 +3,7 @@ package com.atguigu.qqzone.controller;
 import com.atguigu.qqzone.pojo.Topic;
 import com.atguigu.qqzone.pojo.UserBasic;
 import com.atguigu.qqzone.service.TopicService;
+import com.atguigu.qqzone.service.UserBasicService;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
@@ -10,9 +11,12 @@ import java.util.List;
 public class TopicController {
 
     private TopicService topicService;
+    private UserBasicService userBasicService;
 
     public String topicDetail(Integer id, HttpSession session){
         Topic topic = topicService.getTopic(id);
+        UserBasic author = userBasicService.getUserBasicById(topic.getAuthor().getId());
+        topic.setAuthor(author);
         session.setAttribute("topic",topic);
         return "frames/detail";
     }

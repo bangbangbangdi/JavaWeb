@@ -40,6 +40,7 @@
     </bean>
     <bean id="topic" class="com.atguigu.qqzone.controller.TopicController">
         <property name="topicService" ref="topicService"></property>
+        <property name="userBasicService" ref="userBasicService"></property>
     </bean>
     <bean id="reply" class="com.atguigu.qqzone.controller.ReplyController">
         <property name="replyService" ref="replyService"></property>

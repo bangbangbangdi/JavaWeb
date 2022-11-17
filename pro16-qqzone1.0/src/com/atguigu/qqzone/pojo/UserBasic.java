@@ -5,7 +5,7 @@ import java.util.List;
 public class UserBasic {
 
     private Integer id;
-    private String loginID;
+    private String loginId;
     private String nickName;
     private String pwd;
     private String headImg;
@@ -29,12 +29,12 @@ public class UserBasic {
         this.id = id;
     }
 
-    public String getLoginID() {
-        return loginID;
+    public String getLoginId() {
+        return loginId;
     }
 
-    public void setLoginID(String loginID) {
-        this.loginID = loginID;
+    public void setLoginId(String loginId) {
+        this.loginId = loginId;
     }
 
     public String getNickName() {
