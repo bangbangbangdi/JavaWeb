@@ -6,11 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pro09-fruit1.3-thymeleaf" />
-        <module name="pro01-jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="pro01-jdbc" target="1.8" />
       <module name="pro07-javaweb-begin" target="1.8" />
       <module name="pro09-fruit1.3-thymeleaf" target="8" />
     </bytecodeTargetLevel>

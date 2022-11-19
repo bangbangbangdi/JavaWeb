@@ -3,20 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro00-reference/pro00-reference.iml" filepath="$PROJECT_DIR$/pro00-reference/pro00-reference.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro02-fruit1.0-jdbc/pro02-fruit1.0-jdbc.iml" filepath="$PROJECT_DIR$/pro02-fruit1.0-jdbc/pro02-fruit1.0-jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro03-fruit1.1-jdbc/pro03-fruit1.1-jdbc.iml" filepath="$PROJECT_DIR$/pro03-fruit1.1-jdbc/pro03-fruit1.1-jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro04-fruit1.2-jdbc/pro04-fruit1.2-jdbc.iml" filepath="$PROJECT_DIR$/pro04-fruit1.2-jdbc/pro04-fruit1.2-jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro05-jdbc-batch-datasource/pro05-jdbc-batch-datasource.iml" filepath="$PROJECT_DIR$/pro05-jdbc-batch-datasource/pro05-jdbc-batch-datasource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro07-javaweb-begin/pro07-javaweb-begin.iml" filepath="$PROJECT_DIR$/pro07-javaweb-begin/pro07-javaweb-begin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" filepath="$PROJECT_DIR$/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro09-fruit1.3-thymeleaf/pro09-fruit1.3-thymeleaf.iml" filepath="$PROJECT_DIR$/pro09-fruit1.3-thymeleaf/pro09-fruit1.3-thymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro10-fruit1.5-thymeleaf/pro10-fruit1.5-thymeleaf.iml" filepath="$PROJECT_DIR$/pro10-fruit1.5-thymeleaf/pro10-fruit1.5-thymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro11-fruit1.6-thymeleaf/pro11-fruit1.6-thymeleaf.iml" filepath="$PROJECT_DIR$/pro11-fruit1.6-thymeleaf/pro11-fruit1.6-thymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro12-fruit1.7-thymeleaf/pro12-fruit1.7-thymeleaf.iml" filepath="$PROJECT_DIR$/pro12-fruit1.7-thymeleaf/pro12-fruit1.7-thymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro13-servlet-api/pro13-servlet-api.iml" filepath="$PROJECT_DIR$/pro13-servlet-api/pro13-servlet-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro14-filter-listener/pro14-filter-listener.iml" filepath="$PROJECT_DIR$/pro14-filter-listener/pro14-filter-listener.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro15-fruit1.8-mvc-transaction/pro15-fruit1.8-mvc-transaction.iml" filepath="$PROJECT_DIR$/pro15-fruit1.8-mvc-transaction/pro15-fruit1.8-mvc-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro16-qqzone1.0/pro16-qqzone1.0.iml" filepath="$PROJECT_DIR$/pro16-qqzone1.0/pro16-qqzone1.0.iml" />
     </modules>
   </component>

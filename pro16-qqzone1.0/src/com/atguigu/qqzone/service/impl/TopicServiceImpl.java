@@ -43,7 +43,7 @@ public class TopicServiceImpl implements TopicService {
         UserBasic author = topic.getAuthor();
         author = userBasicService.getUserBasicById(author.getId());
         topic.setAuthor(author);
-        return null;
+        return topic;
     }
 
     // 业务分析:删除某条日志时,也应该将所有关联的回复信息一并删除
