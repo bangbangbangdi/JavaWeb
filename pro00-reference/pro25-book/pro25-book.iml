@@ -7,20 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="pro12-fruit1.7-keyword" />
-    <orderEntry type="module" module-name="pro14-fruit1.9-mvc-reflect" />
-    <orderEntry type="module" module-name="pro21-qqzone1.0" />
-    <orderEntry type="module" module-name="pro20-fruit2.3-mvc-transaction" />
-    <orderEntry type="module" module-name="pro17-fruit2.2-mvc-service-ioc" />
-    <orderEntry type="module" module-name="pro29-book-cart-vue-axios" />
-    <orderEntry type="module" module-name="pro09-fruit1.4-thymeleaf" />
-    <orderEntry type="module" module-name="pro16-fruit2.1-mvc-controller" />
-    <orderEntry type="module" module-name="pro22-qqzone1.0" />
-    <orderEntry type="module" module-name="pro27-book-regist-cart-2" />
-    <orderEntry type="module" module-name="pro10-fruit1.5-thymeleaf" />
-    <orderEntry type="module" module-name="pro11-fruit1.6-pagination" />
-    <orderEntry type="module" module-name="pro27-book-regist-cart" />
-    <orderEntry type="module" module-name="pro15-fruit2.0-mvc-dispatcherServlet" />
-    <orderEntry type="module" module-name="pro13-fruit1.8-mvc" />
   </component>
 </module>
