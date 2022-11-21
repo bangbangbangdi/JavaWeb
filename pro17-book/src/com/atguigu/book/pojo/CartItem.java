@@ -64,7 +64,8 @@ public class CartItem {
         BigDecimal bigDecimalPrice = new BigDecimal("" + getBook().getPrice());
         BigDecimal bigDecimalBuyCount = new BigDecimal("" + buyCount);
         BigDecimal bigDecimalXJ = bigDecimalBuyCount.multiply(bigDecimalPrice);
-        return bigDecimalXJ.doubleValue();
+        this.xj = bigDecimalXJ.doubleValue();
+        return this.xj;
     }
 
 }
