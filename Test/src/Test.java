@@ -6,5 +6,12 @@ public class Test {
         System.out.println("num = " + num);
         System.out.println("num2 = " + num2);
         System.out.println("num3 = " + num3);
+        test();
     }
+
+    public static void test() {
+        System.out.println("a".equals(null));
+
+    }
+
 }
