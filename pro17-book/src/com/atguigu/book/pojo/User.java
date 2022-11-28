@@ -20,6 +20,13 @@ public class User {
         this.id = id;
     }
 
+    public User(String uname, String pwd, String email, int role) {
+        this.uname = uname;
+        this.pwd = pwd;
+        this.email = email;
+        this.role = role;
+    }
+
     public Integer getId() {
         return id;
     }
