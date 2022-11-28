@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/pro07-javaweb-begin" />
+    <file type="web" url="file://$PROJECT_DIR$/pro18-cookie-kaptcha-js/web/web/WEB-INF/web.xml" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
