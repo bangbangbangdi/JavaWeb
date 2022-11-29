@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"
+  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p th:text="@{'/aaa/bbb/ccc'}">即将被替代的文本</p>
+  <p>有转义效果：[[${reqAttrName}]]</p>
+  <p>无转义效果2：[(${reqAttrName})]</p>
+  <p th:text="${helloRequestAttr}">请求作用域</p>
+  <p th:text="${session.helloSessionAttr}">会话作用域</p>
+  <p th:text="${application.helloAppAttr}">应用作用域</p>
+
+</body>
+</html>

@@ -2,57 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d812cd-9a25-479a-952c-760b68d3a795" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/pro18_cookie_kaptcha_js_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/lib1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/lib2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/lib3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro18-cookie-kaptcha-js/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro18-cookie-kaptcha-js/web/hello01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro18-cookie-kaptcha-js/web/hello02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/myssm_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/pro17_book_Web_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/pro19_thymeleaf_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/pro19-thymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/TestThymeleafServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/TestThymeleafServlet02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/TestThymeleafServlet03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/ViewBaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/web/WEB-INF/view/target.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/pro18_cookie_kaptcha_js_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/artifacts/pro18_cookie_kaptcha_js_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/lib1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/lib2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/lib3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/Test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro09-fruit1.4-thymeleaf/pro09-fruit1.4-thymeleaf.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro11-fruit1.6-pagination/pro11-fruit1.6-pagination.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro12-fruit1.7-keyword/pro12-fruit1.7-keyword.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro13-fruit1.8-mvc/pro13-fruit1.8-mvc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro14-fruit1.9-mvc-reflect/pro14-fruit1.9-mvc-reflect.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro15-fruit2.0-mvc-dispatcherServlet/pro15-fruit2.0-mvc-dispatcherServlet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro16-fruit2.1-mvc-controller/pro16-fruit2.1-mvc-controller.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro17-fruit2.2-mvc-service-ioc/pro17-fruit2.2-mvc-service-ioc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro18-servlet-api/pro18-servlet-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro19-filter-listener/pro19-filter-listener.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro20-fruit2.3-mvc-transaction/pro20-fruit2.3-mvc-transaction.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro21-qqzone1.0/pro21-qqzone1.0.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro22-qqzone1.0/pro22-qqzone1.0.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro23-qqzone1.0/pro23-qqzone1.0.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro24-book/pro24-book.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro25-book/pro25-book.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro26-cookie-kaptcha-js/pro26-cookie-kaptcha-js.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro27-book-regist-cart-2/pro27-book-regist-cart-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro27-book-regist-cart/pro27-book-regist-cart.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro28-vue-axios-json/pro28-vue-axios-json.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro29-book-cart-vue-axios/pro29-book-cart-vue-axios.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro02-fruit1.0-jdbc/pro02-fruit1.0-jdbc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro03-fruit1.1-jdbc/pro03-fruit1.1-jdbc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro04-fruit1.2-jdbc/pro04-fruit1.2-jdbc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro05-jdbc-batch-datasource/pro05-jdbc-batch-datasource.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro07-javaweb-begin/pro07-javaweb-begin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro08-javaweb-servlet/pro08-javaweb-servlet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro09-fruit1.3-thymeleaf/pro09-fruit1.3-thymeleaf.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro10-fruit1.5-thymeleaf/pro10-fruit1.5-thymeleaf.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro11-fruit1.6-thymeleaf/pro11-fruit1.6-thymeleaf.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro12-fruit1.7-thymeleaf/pro12-fruit1.7-thymeleaf.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro13-servlet-api/pro13-servlet-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro14-filter-listener/pro14-filter-listener.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro15-fruit1.8-mvc-transaction/pro15-fruit1.8-mvc-transaction.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro16-qqzone1.0/pro16-qqzone1.0.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro17-book/pro17-book.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pro18-cookie-kaptcha-js/pro18-cookie-kaptcha-js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pro18-cookie-kaptcha-js/pro18-cookie-kaptcha-js.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro18-cookie-kaptcha-js/src/com/atguigu/cookies/servlet/CookieServlet01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro18-cookie-kaptcha-js/src/com/atguigu/cookies/servlet/CookieServlet01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro18-cookie-kaptcha-js/src/com/atguigu/cookies/servlet/KaptchaServletDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro18-cookie-kaptcha-js/src/com/atguigu/cookies/servlet/KaptchaServletDemo01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +59,7 @@
       <workItem from="1669195519745" duration="7415000" />
       <workItem from="1669558809192" duration="9883000" />
       <workItem from="1669650244891" duration="594000" />
-      <workItem from="1669652211774" duration="1462000" />
+      <workItem from="1669652211774" duration="6460000" />
     </task>
     <servers />
   </component>
