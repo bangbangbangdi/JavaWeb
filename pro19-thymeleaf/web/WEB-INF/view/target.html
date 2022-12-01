@@ -13,5 +13,17 @@
   <p th:text="${session.helloSessionAttr}">会话作用域</p>
   <p th:text="${application.helloAppAttr}">应用作用域</p>
 
+  <p th:text="${param.username}">userName</p>
+  <p th:text="${param.team}">team</p>
+  <p th:text="${param.team[0]}">team[0]</p>
+  <p th:text="${param.team[1]}">team[1]</p>
+
+  <p th:text="${#request.getAttribute('helloRequestAttr')}">request Attribute</p>
+  <p th:text="${#request.getContextPath()}">getContextPath</p>
+  <p th:text="${#request.getContextPath()}">getContextPath</p>
+  <p th:text="${#request.getClass().getName()}">getClassName</p>
+
+  <p>list对象isEmpty方法判断集合是否为空aNotEmptyList:<span th:text="${#lists.isEmpty(aNotEmptyList)}">aNotEmptyList</span></p>
+  <p>list对象isEmpty方法判断集合是否为空anEmptyList:<span th:text="${#lists.isEmpty(anEmptyList)}">anEmptyList</span></p>
 </body>
 </html>

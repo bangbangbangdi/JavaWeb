@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"
+  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>测试each</h3>
+<table>
+    <thead>
+        <tr>
+            <th>员工编号</th>
+            <th>员工姓名</th>
+            <th>员工工资</th>
+        </tr>
+    </thead>
+    <tbody th:if="${#lists.isEmpty(employeeList)}">
+        <tr>
+            <td colspan="3">抱歉！没有查询到你搜索的数据！</td>
+        </tr>
+    </tbody>
+    <tbody th:if="${not #lists.isEmpty(employeeList)}">
+        <!-- 遍历出来的每一个元素的名字 : ${要遍历的集合} -->
+        <tr th:each="employee : ${employeeList}">
+            <td th:text="${employee.empId}">empId</td>
+            <td th:text="${employee.empName}">empName</td>
+            <td th:text="${employee.empSalary}">empSalary</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

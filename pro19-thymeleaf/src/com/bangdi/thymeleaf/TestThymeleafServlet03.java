@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 @WebServlet("/TestThymeleafServlet03")
 public class TestThymeleafServlet03 extends ViewBaseServlet{
@@ -17,6 +19,9 @@ public class TestThymeleafServlet03 extends ViewBaseServlet{
         String reqAttrName = "helloRequestAttr";
         String reqAttrValue = "helloRequestAttr-Value";
         req.setAttribute(reqAttrName,reqAttrValue);
+
+        req.setAttribute("aNotEmptyList", Arrays.asList("aa","bb","cc"));
+        req.setAttribute("anEmptyList",new ArrayList<>());
 
         String sessionAttrName = "helloSessionAttr";
         String sessionAttrValue = "helloSessionAttr-Value";

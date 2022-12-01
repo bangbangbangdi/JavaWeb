@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"
+  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>员工编号</th>
+      <th>员工姓名</th>
+      <th>员工工资</th>
+    </tr>
+    <tr th:if="${#lists.isEmpty(employeeList)}">
+      <td colspan="3">抱歉这里没有查询到你要搜索到数据</td>
+    </tr>
+<!--    以下这两种方式的效果是一致的-->
+    <tr th:if="${not #lists.isEmpty(employeeList)}">
+      <td colspan="3">有数据！</td>
+    </tr>
+    <tr th:unless="${#lists.isEmpty(employeeList)}">
+      <td colspan="3">有数据！</td>
+    </tr>
+
+    <h3>switch Test</h3>
+    <div th:switch="${user}">
+      <p th:case="level-1">silver</p>
+      <p th:case="level-2">gold</p>
+      <p th:case="level-3">platinum</p>
+      <p th:case="level-4">diamond</p>
+    </div>
+ </table>
+    <table>
+      <thead>
+        <tr>
+          <th>员工编号</th>
+          <th>员工姓名</th>
+          <th>员工工资ssss</th>
+        </tr>
+      </thead>
+      <tbody th:if="${#lists.isEmpty(employeeList)}">
+        <tr>
+          <td colspan="3">抱歉没有查询到你搜索的数据</td>
+        </tr>
+      </tbody>
+      <tbody th:unless="${#lists.isEmpty(employeeList)}">
+        <tr th:each="employee: ${employeeList}">
+<!--        <tr th:each="employee,empStatus : ${employeeList}">-->
+          <td th:text="${employee.empId}">empId</td>
+          <td th:text="${employee.empName}">empName</td>
+          <td th:text="${employee.empSalary}">empSalary</td>
+<!--          <td th:text="${empStatus.count}">empSalary</td>-->
+<!--          <td th:text="${employee.index}">empSalary</td>-->
+        </tr>
+      </tbody>
+    </table>
+
+</body>
+</html>
