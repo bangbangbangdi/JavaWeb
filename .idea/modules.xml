@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/pro18-cookie-kaptcha-js/pro18-cookie-kaptcha-js.iml" filepath="$PROJECT_DIR$/pro18-cookie-kaptcha-js/pro18-cookie-kaptcha-js.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro19-thymeleaf/pro19-thymeleaf.iml" filepath="$PROJECT_DIR$/pro19-thymeleaf/pro19-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro17-book/pro17-book.iml" filepath="$PROJECT_DIR$/pro17-book/pro17-book.iml" />
     </modules>
   </component>
 </project>

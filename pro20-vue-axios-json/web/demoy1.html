@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.js"></script>
+    <script language="JavaScript" src="script/axios.min.js"></script>
+    <script>
+        // 这里演示的是在页面如何处理服务器返回的JSON数据
+        window.onload = function(){
+            var vue = new Vue({
+                "el":"#div0",
+                data:{
+                    uname:"linda",
+                    pwd:"ok"
+                },
+                methods:{
+                    axios03:function(){
+                        axios({
+                            method:"POST",
+                            url:"axios03.do",
+                            data:{
+                                uname:vue.uname,
+                                pwd:vue.pwd
+                            }
+                        })
+                            .then(function (value){
+                                console.log(value);
+                                var data = value.data;
+                                vue.uname = data.uname;
+                                vue.pwd = data.pwd;
+
+                                // 此处value中的data返回的是js object 因此可以直接点出属性
+                                // 如果我们获得的是一个字符串 : "{uname:\"xx\",pwd:\"ok\"}"
+
+                                // 当然js中 也有字符串和js对象间互转的API
+                                console.log(JSON.stringify(data));
+                                console.log(JSON.parse(JSON.stringify(data)))
+                            })
+                            .catch(function (reason){
+                                console.log(reason);
+                            });
+                    }
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div id="div0">
+    uname:<input type="text" v-model="uname"><br>
+    pwd:<input type="text" v-model="pwd"><br>
+    <input type="button" @click="axios03" value="发送一个带JSON格式参数带异步请求">
+</div>
+</body>
+</html>

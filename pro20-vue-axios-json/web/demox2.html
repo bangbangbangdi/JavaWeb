@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.js"></script>
+    <script>
+<!--        这里介绍的是Vue的钩子函数，方便我们在不同的阶段对vue对象进行控制-->
+       window.onload = function (){
+            var vue = new Vue({
+                "el":"#div0",
+                data:{
+                    msg:1
+               },
+                methods:{
+                    changeMsg:function(){
+                        this.msg = this.msg + 1;
+                    }
+                },
+                beforeCreate:function (){
+                    console.log("beforeCreate:vue对象创建之前");
+                    console.log("msg:" + this.msg);
+                },
+                created:function(){
+                    console.log("created:vue对象创建之后");
+                    console.log("msg:"+this.msg);
+                },
+                beforeMount:function(){
+                    console.log("beforeMount:数据装载之前");
+                    console.log("msg:"+this.msg);
+                    console.log("span" + document.getElementById("span").innerText);
+                },
+                mounted:function(){
+                    console.log("mounted:数据装置之后");
+                    console.log("msg:"+this.msg);
+                    console.log("span" + document.getElementById("span").innerText);
+                },
+                beforeUpdate:function(){
+                    console.log("beforeUpdate:数据更新之前");
+                    console.log("msg:"+this.msg);
+                    console.log("span" + document.getElementById("span").innerText);
+                },
+                updated:function(){
+                    console.log("updated:数据更新之后");
+                    console.log("msg:"+this.msg);
+                    console.log("span" + document.getElementById("span").innerText);
+                }
+          });
+        }
+    </script>
+</head>
+<body>
+    <div id="div0">
+        <span id="span">{{msg}}</span>
+        <input type="button" value="改变msg的值" @click="changeMsg">
+    </div>
+</body>
+</html>

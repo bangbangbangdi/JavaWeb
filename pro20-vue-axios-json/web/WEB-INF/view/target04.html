@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"
+  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>尝试一下包含其他模版文件</h3>
+
+    <div id="badBoy" th:insert="common.html :: header">
+        div标签的原始内容
+    </div>
+    <div id="worseBoy" th:replace="common.html :: header">
+        div标签的原始内容
+    </div>
+    <div id="worstBoy" th:include="common.html :: header">
+        div标签的原始内容
+    </div>
+</body>
+</html>

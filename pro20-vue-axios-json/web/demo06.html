@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.js"></script>
+    <script>
+       window.onload = function (){
+            var vue = new Vue({
+                "el":"#div0",
+                data:{
+                    msg:"hello world~"
+               },
+                methods:{
+                    myReverse:function(){
+                        this.msg = this.msg.split("").reverse().join("");
+                    }
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <div id="div0">
+        <span>{{msg}}</span>
+        <input type="button" value="反转" @click="myReverse">
+   </div>
+</body>
+</html>

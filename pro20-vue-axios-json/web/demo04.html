@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.js"></script>
+    <script>
+       window.onload = function (){
+            var vue = new Vue({
+                "el":"#div0",
+                data:{
+                    num:2
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <div id="div0">
+        <input type="text" v-model="num">
+        <br>
+        <div v-if="num%2 == 0" style="width: 200px;height:200px;background-color: skyblue;"></div>
+        <div v-else style="width: 200px;height:200px;background-color: hotpink;"></div>
+
+        <div v-show="num%2==0" style="width: 200px;height:200px;background-color: hotpink;"></div>
+    </div>
+</body>
+</html>

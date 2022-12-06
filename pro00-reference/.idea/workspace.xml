@@ -2,19 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d812cd-9a25-479a-952c-760b68d3a795" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/TestThymeleafServlet04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/TestThymeleafServlet05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/TestThymeleafServlet06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/web/WEB-INF/view/common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/web/WEB-INF/view/target02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/web/WEB-INF/view/target03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro19-thymeleaf/web/WEB-INF/view/target04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/demo01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/gson-2.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/kaptcha-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/pro17-book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/basedao/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/basedao/ConnUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/basedao/DAOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/filters/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/filters/OpenSessionInViewFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/ioc/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/ioc/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/listeners/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/myspringmvc/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/myspringmvc/DispatcherServletException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/myspringmvc/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/myspringmvc/ViewBaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/myssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/trans/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/myssm/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/web/static/script/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/web/static/script/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/web/static/script/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/web/static/script/regist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro17-book/web/static/script/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/pro20-vue-axios-json.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/src/com/bangdi/axios/Axios01Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/src/com/bangdi/axios/Axios02Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/src/com/bangdi/axios/Axios03Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/src/com/bangdi/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/WEB-INF/view/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/WEB-INF/view/target.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/WEB-INF/view/target02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/WEB-INF/view/target03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/WEB-INF/view/target04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demo01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demo02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demo03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demo04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demo05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demo06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demox1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demox2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demox3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demox4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/demoy1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/script/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro20-vue-axios-json/web/script/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/pro18_cookie_kaptcha_js_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/pro19_thymeleaf_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/artifacts/pro17_book_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/myssm.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/TestThymeleafServlet03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro19-thymeleaf/src/com/bangdi/thymeleaf/TestThymeleafServlet03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro19-thymeleaf/web/WEB-INF/view/target.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pro19-thymeleaf/web/WEB-INF/view/target.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pro19-thymeleaf/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pro19-thymeleaf/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/book/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/book/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/z_book/filters/SessionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro17-book/src/com/atguigu/z_book/filters/SessionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro17-book/web/WEB-INF/pages/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pro17-book/web/WEB-INF/pages/cart/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro17-book/web/WEB-INF/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pro17-book/web/WEB-INF/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro17-book/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pro17-book/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +104,9 @@
       <workItem from="1669195519745" duration="7415000" />
       <workItem from="1669558809192" duration="9883000" />
       <workItem from="1669650244891" duration="594000" />
-      <workItem from="1669652211774" duration="7101000" />
+      <workItem from="1669652211774" duration="9430000" />
+      <workItem from="1669999276196" duration="27495000" />
+      <workItem from="1670125241167" duration="19007000" />
     </task>
     <servers />
   </component>

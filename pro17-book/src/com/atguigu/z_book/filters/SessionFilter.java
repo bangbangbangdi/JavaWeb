@@ -16,7 +16,7 @@ import java.util.List;
 @WebFilter(urlPatterns = {"*.do","*.html"},
         initParams = {
             @WebInitParam(name = "white",
-                        value = "/pro17/page.do?operate=page&page=user/login,/pro17/user.do?null"
+                        value = "/pro17/page.do?operate=page&page=user/login,/pro17/user.do?null,page.do?operate=page&page=user/login"
             )
         })
 public class SessionFilter implements Filter {
